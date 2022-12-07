@@ -29,7 +29,7 @@ class RestApiServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/config/rest-api.php' => config_path('laravel-rest-api'),
+            __DIR__ . '/config/rest-api.php' => config_path('rest-api.php'),
         ], 'laravel-rest-api');
 
         (RestApi::getInstance())->boot();
