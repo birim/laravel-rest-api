@@ -1,0 +1,32 @@
+{
+    "name": "birim/laravel-rest-api",
+    "description": "Laravel REST API",
+    "keywords": ["laravel", "rest", "api", "json"],
+    "homepage": "https://github.com/birim/laravel-rest-api.git",
+    "license": "MIT",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Birim Karaustaoglu",
+            "email": "birim.karaustaoglu@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Birim\\Laravel\\RestApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Birim\\Laravel\\RestApi\\RestApiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
