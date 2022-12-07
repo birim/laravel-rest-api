@@ -55,8 +55,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ExampleModel extends Model
 {
-    use HasApiTokens, HasFactory, Notifiable;
-
     public $restApiAttributes = [
         'name',
         'email'
